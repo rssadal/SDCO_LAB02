@@ -67,7 +67,7 @@ public class Cliente {
             			
             		case "W":
             			
-            			System.out.println("[CLIENT](write)");
+            			System.out.println("Write)");
             			String going_mensage = "";
             			going_mensage = br.readLine();
             			saida.writeUTF("{" + "\"method\"::\"write\",," + "\"args\"::[\"" + going_mensage + "\n\"]" + "}");
